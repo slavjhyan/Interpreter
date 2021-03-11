@@ -1,0 +1,8 @@
+alloc x <- 10 ;
+alloc z <- 5 ;
+check (x > z){x <- x - z ;} ;
+output("Printing 'Hi!' ") ;
+output(x) ;
+output("times.") ;
+alloc y <- 0 ;
+anew(x){y <- y + 1 , output("Esh Alen!"), output(y) ;} ;
