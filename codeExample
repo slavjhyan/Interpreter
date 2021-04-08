@@ -5,4 +5,4 @@ output("Printing 'Hi!' ") ;
 output(x) ;
 output("times.") ;
 alloc y <- 0 ;
-anew(x){y <- y + 1 , output("Esh Alen!"), output(y) ;} ;
+anew(x){y <- y + 1 , output("Hi!"), output(y) ;} ;
